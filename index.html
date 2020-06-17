@@ -1,0 +1,38 @@
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <h2 id="title">Tic Tac Toe</h2>
+    <nav id="menu">
+      PLAYER VS <input id="opts" type="text" list="mod" placeholder="Escolha a modalidade">
+      <datalist id="mod">
+        <option value="player">Player</option>
+        <option value="pc">PC</option>
+      </datalist>
+    </nav>
+    <table id="table">
+      <tr class="tr">
+        <td class="canto-left-top"></td>
+        <td class="mind-top"></td>
+        <td class="canto-right-top"></td>
+      </tr>
+      <tr class="tr">
+        <td class="mind-left"></td>
+        <td class="mind"></td>
+        <td class="mind-right"></td>
+      </tr>
+      <tr class="tr">
+        <td class="canto-left-bottom"></td>
+        <td class="mind-bottom"></td>
+        <td class="canto-right-bottom"></td>
+      </tr>
+    </table>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>

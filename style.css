@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+  background-color: #212121;
+  font-family: "Roboto";
+  color: #eeeeee;
+}
+
+#container{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+#container #title {
+  width: 100%;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#container #menu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 16pt;
+}
+
+#container #menu input {
+  height: 20px;
+  width: 100px;
+  margin-left: 5px;
+}
+
+#container #table {
+  border-spacing: 0px;
+}
+
+#container #table tr .canto-left-top {
+  border-bottom: solid 5px #eeeeee;
+  border-right: solid 5px #eeeeee;
+  border-top-left-radius: 15px;
+}
+
+#container #table tr .canto-left-bottom {
+  border-top: solid 5px #eeeeee;
+  border-right: solid 5px #eeeeee;
+  border-bottom-left-radius: 15px;
+}
+
+#container #table tr .canto-right-top {
+  border-bottom: solid 5px #eeeeee;
+  border-left: solid 5px #eeeeee;
+  border-top-right-radius: 15px;
+}
+
+#container #table tr .canto-right-bottom {
+  border-top: solid 5px #eeeeee;
+  border-left: solid 5px #eeeeee;
+  border-bottom-right-radius: 15px;
+}
+
+#container #table tr .mind-left {
+  border-right: solid 5px #eeeeee;
+}
+
+#container #table tr .mind-right {
+  border-left: solid 5px #eeeeee;
+}
+
+#container #table tr .mind-top {
+  border-bottom: solid 5px #eeeeee;
+}
+
+#container #table tr .mind-bottom {
+  border-top: solid 5px #eeeeee;
+}
+
+#container #table tr td{
+  color: #eeeeee;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 36pt;
+  transition: 0.2s;
+}
+
+#container #table tr td:hover{
+  cursor: pointer;
+  background-color: #eeeeee10;
+}
