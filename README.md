@@ -11,7 +11,7 @@ Jogo da velha feito com javaScript puro que conta com um modo single player e um
 - JavaScript
 
 ## Baixar e iniciar o projeto🎓
-1) Abra o terminal e entr na pasta onde quer deixar o projeto
+1) Abra o terminal e entre na pasta onde quer deixar o projeto
 2) Rode o seguintes comandos:</br>
 ```
 // clonando o projeto
