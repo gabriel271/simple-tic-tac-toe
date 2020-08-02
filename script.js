@@ -1,6 +1,7 @@
 const table = document.querySelectorAll("td");
 let turn = false;
 let gameIsOver = false;
+document.getElementById('opts').value = "pc"
 
 table.forEach(td => {
   td.addEventListener("click", () => write(td));
