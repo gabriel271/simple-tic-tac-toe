@@ -24,6 +24,3 @@ cd simple-tic-tac-toe
 index.html
 
 ```
-## Minhas redes🕸
-- Linkedin: [Paulo Gabriel](https://www.linkedin.com/in/paulo-gabriel-605687171/)
-- Instagram: [@gabriel_silva805_dev](https://www.instagram.com/gabriel_silva805_dev/?hl=pt-br)
