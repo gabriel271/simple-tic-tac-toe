@@ -28,7 +28,7 @@ body{
   font-size: 16pt;
 }
 
-#container #menu input {
+#container #menu #opts {
   height: 20px;
   width: 100px;
   margin-left: 5px;
