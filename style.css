@@ -32,6 +32,8 @@ body{
   height: 20px;
   width: 100px;
   margin-left: 5px;
+  background-color: #212121;
+  color: #fff;
 }
 
 #container #table {
